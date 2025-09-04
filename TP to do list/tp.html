@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizador de Tareas</title>
+  <!-- Conectar CSS -->
+  <link rel="stylesheet" href="tp.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Organizador de Tareas</h1>
+
+    <!-- Formulario para crear tareas -->
+    <div class="task-form">
+      <input type="text" id="taskTitle" placeholder="Título de la tarea">
+      <textarea id="taskDesc" placeholder="Descripción"></textarea>
+      <button id="addTaskBtn">Agregar Tarea</button>
+    </div>
+
+    <!-- Lista donde aparecerán las tareas -->
+    <h2>Mis Tareas</h2>
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- Conectar JS -->
+  <script src="Tp.js"></script>
+</body>
+</html>
